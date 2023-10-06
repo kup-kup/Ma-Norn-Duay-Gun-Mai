@@ -1,0 +1,19 @@
+Introduction form
+	แทรกรูป
+	ตกแต่ง
+
+Explain form
+	เขียน
+	ใส่ปุ่มไปต่อ
+
+whose room is it?
+	ถ่ายภาพ, ตัดพื้นหลังออก
+	ใส่ปุ่มไปต่อ
+
+Preview room
+	psd work
+
+8 custum forms
+
+final room
+	ปุ่ม exit, back to introduction form

@@ -16,5 +16,10 @@ namespace Ma_Norn_Duay_Gun_Mai
         {
             InitializeComponent();
         }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

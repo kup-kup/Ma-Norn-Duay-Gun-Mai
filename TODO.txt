@@ -1,4 +1,7 @@
+Form Size: 1200 x 800
+
 Introduction form
+	size: 650 x 700
 	แทรกรูป
 	ตกแต่ง
 

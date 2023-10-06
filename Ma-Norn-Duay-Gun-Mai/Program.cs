@@ -16,7 +16,7 @@ namespace Ma_Norn_Duay_Gun_Mai
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new Title());
         }
     }
 }

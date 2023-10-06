@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Ma_Norn_Duay_Gun_Mai
 {
-    public partial class Form1 : Form
+    public partial class Title : Form
     {
-        public Form1()
+        public Title()
         {
             InitializeComponent();
         }
@@ -27,6 +27,21 @@ namespace Ma_Norn_Duay_Gun_Mai
         private void button2_Click(object sender, EventArgs e)
         {
             Application.Exit();
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click_1(object sender, EventArgs e)
+        {
+
         }
     }
 }

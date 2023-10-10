@@ -52,14 +52,29 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Program.cs" />
-    <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="room_preview.cs">
+    <Compile Include="BedChoose.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="room_preview.Designer.cs">
-      <DependentUpon>room_preview.cs</DependentUpon>
+    <Compile Include="BedChoose.Designer.cs">
+      <DependentUpon>BedChoose.cs</DependentUpon>
     </Compile>
+    <Compile Include="roompreview.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="roompreview.Designer.cs">
+      <DependentUpon>roompreview.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="room_previeww.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="room_previeww.Designer.cs">
+      <DependentUpon>room_previeww.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="BedChoose.resx">
+      <DependentUpon>BedChoose.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -73,8 +88,11 @@
       <DependentUpon>Resources.resx</DependentUpon>
       <DesignTime>True</DesignTime>
     </Compile>
-    <EmbeddedResource Include="room_preview.resx">
-      <DependentUpon>room_preview.cs</DependentUpon>
+    <EmbeddedResource Include="roompreview.resx">
+      <DependentUpon>roompreview.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="room_previeww.resx">
+      <DependentUpon>room_previeww.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -94,6 +112,51 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\empty room.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bed_cream.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\zTable.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lamp_red.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ward_normal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\zAirCon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Window_red.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DressTable_brown.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Rug_red.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ward_kid.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Rug_green.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bed_pink.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bed_grey.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bed_blue.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bed_kid.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

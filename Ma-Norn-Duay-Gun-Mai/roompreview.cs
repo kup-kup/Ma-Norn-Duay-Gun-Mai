@@ -13,7 +13,10 @@ namespace Ma_Norn_Duay_Gun_Mai
 {
     public partial class roompreview : Form
     {
-        int bed_op = 1;
+        public static class GrobalVar
+        {
+            public static int bed_op = 1;
+        }
 
         public roompreview()
         {
@@ -34,7 +37,7 @@ namespace Ma_Norn_Duay_Gun_Mai
 
         private void pictureBox1_enter(object sender, EventArgs e)
         {
-            switch (bed_op)
+            switch (GrobalVar.bed_op)
             {
                 case 1: pictureBox1.Image = Properties.Resources.Bed1_blue_h; break;
             }
@@ -42,7 +45,7 @@ namespace Ma_Norn_Duay_Gun_Mai
 
         private void pictureBox1_leave(object sender, EventArgs e)
         {
-            switch (bed_op)
+            switch (GrobalVar.bed_op)
             {
                 case 1: pictureBox1.Image = Properties.Resources.Bed1_blue; break;
             }
@@ -50,7 +53,13 @@ namespace Ma_Norn_Duay_Gun_Mai
 
         private void roompreview_Load(object sender, EventArgs e)
         {
-
+            switch (GrobalVar.bed_op)
+            {
+                case 1: pictureBox1.Image = Properties.Resources.Bed1_blue; break;
+                case 2: pictureBox1.Image = Properties.Resources.Bed2_cream; break;
+                case 3: pictureBox1.Image = Properties.Resources.Bed3_grey; break;
+                case 4: pictureBox1.Image = Properties.Resources.Bed4_kid; break;
+            }
         }
     }
 }

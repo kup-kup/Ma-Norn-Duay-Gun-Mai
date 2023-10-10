@@ -24,7 +24,9 @@ namespace Ma_Norn_Duay_Gun_Mai
 
         private void pictureBox1_Click(object sender, EventArgs e)
         {
-
+            this.Hide();
+            BedChoose bedChoose_var = new BedChoose();
+            bedChoose_var.Show();
         }
 
         private void roompreview_Load(object sender, EventArgs e)

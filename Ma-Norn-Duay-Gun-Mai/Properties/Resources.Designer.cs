@@ -83,6 +83,16 @@ namespace Ma_Norn_Duay_Gun_Mai.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap aircon {
+            get {
+                object obj = ResourceManager.GetObject("aircon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Bed_blue {
             get {
                 object obj = ResourceManager.GetObject("Bed_blue", resourceCulture);
@@ -133,6 +143,16 @@ namespace Ma_Norn_Duay_Gun_Mai.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Bed1_blue {
+            get {
+                object obj = ResourceManager.GetObject("Bed1_blue", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap DressTable_brown {
             get {
                 object obj = ResourceManager.GetObject("DressTable_brown", resourceCulture);
@@ -156,6 +176,16 @@ namespace Ma_Norn_Duay_Gun_Mai.Properties {
         internal static System.Drawing.Bitmap Lamp_red {
             get {
                 object obj = ResourceManager.GetObject("Lamp_red", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Lamp1_brown {
+            get {
+                object obj = ResourceManager.GetObject("Lamp1_brown", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -203,9 +233,29 @@ namespace Ma_Norn_Duay_Gun_Mai.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Ward1_kid {
+            get {
+                object obj = ResourceManager.GetObject("Ward1_kid", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Window_red {
             get {
                 object obj = ResourceManager.GetObject("Window_red", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap window1_blue {
+            get {
+                object obj = ResourceManager.GetObject("window1_blue", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

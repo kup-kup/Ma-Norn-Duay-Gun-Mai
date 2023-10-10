@@ -45,9 +45,9 @@
             // pictureBox1
             // 
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.Image = global::Ma_Norn_Duay_Gun_Mai.Properties.Resources.Bed_cream;
-            this.pictureBox1.Location = new System.Drawing.Point(580, 401);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox1.Image = global::Ma_Norn_Duay_Gun_Mai.Properties.Resources.Bed1_blue;
+            this.pictureBox1.Location = new System.Drawing.Point(563, 401);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(426, 261);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -59,10 +59,10 @@
             // 
             this.pictureBox2.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox2.Image = global::Ma_Norn_Duay_Gun_Mai.Properties.Resources.zTable;
-            this.pictureBox2.Location = new System.Drawing.Point(1019, 594);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox2.Location = new System.Drawing.Point(993, 570);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(88, 87);
+            this.pictureBox2.Size = new System.Drawing.Size(114, 111);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 1;
             this.pictureBox2.TabStop = false;
@@ -70,11 +70,11 @@
             // pictureBox3
             // 
             this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox3.Image = global::Ma_Norn_Duay_Gun_Mai.Properties.Resources.Lamp_red;
-            this.pictureBox3.Location = new System.Drawing.Point(1046, 501);
-            this.pictureBox3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox3.Image = global::Ma_Norn_Duay_Gun_Mai.Properties.Resources.Lamp1_brown;
+            this.pictureBox3.Location = new System.Drawing.Point(993, 440);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(61, 98);
+            this.pictureBox3.Size = new System.Drawing.Size(114, 126);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox3.TabIndex = 2;
             this.pictureBox3.TabStop = false;
@@ -83,11 +83,11 @@
             // pictureBox4
             // 
             this.pictureBox4.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox4.Image = global::Ma_Norn_Duay_Gun_Mai.Properties.Resources.Ward_normal;
-            this.pictureBox4.Location = new System.Drawing.Point(2, 180);
-            this.pictureBox4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox4.Image = global::Ma_Norn_Duay_Gun_Mai.Properties.Resources.Ward1_kid;
+            this.pictureBox4.Location = new System.Drawing.Point(11, 161);
+            this.pictureBox4.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(346, 501);
+            this.pictureBox4.Size = new System.Drawing.Size(371, 501);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox4.TabIndex = 3;
             this.pictureBox4.TabStop = false;
@@ -95,11 +95,11 @@
             // pictureBox5
             // 
             this.pictureBox5.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox5.Image = global::Ma_Norn_Duay_Gun_Mai.Properties.Resources.zAirCon;
-            this.pictureBox5.Location = new System.Drawing.Point(705, -60);
-            this.pictureBox5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox5.Image = global::Ma_Norn_Duay_Gun_Mai.Properties.Resources.aircon;
+            this.pictureBox5.Location = new System.Drawing.Point(590, -52);
+            this.pictureBox5.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(301, 241);
+            this.pictureBox5.Size = new System.Drawing.Size(416, 252);
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox5.TabIndex = 4;
             this.pictureBox5.TabStop = false;
@@ -107,11 +107,11 @@
             // pictureBox6
             // 
             this.pictureBox6.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox6.Image = global::Ma_Norn_Duay_Gun_Mai.Properties.Resources.Window_red;
-            this.pictureBox6.Location = new System.Drawing.Point(686, 126);
-            this.pictureBox6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox6.Image = global::Ma_Norn_Duay_Gun_Mai.Properties.Resources.window1_blue;
+            this.pictureBox6.Location = new System.Drawing.Point(695, 178);
+            this.pictureBox6.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(219, 309);
+            this.pictureBox6.Size = new System.Drawing.Size(245, 246);
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox6.TabIndex = 5;
             this.pictureBox6.TabStop = false;
@@ -129,7 +129,7 @@
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.pictureBox1);
             this.DoubleBuffered = true;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "roompreview";
             this.Text = "Form2";
             this.Load += new System.EventHandler(this.roompreview_Load);

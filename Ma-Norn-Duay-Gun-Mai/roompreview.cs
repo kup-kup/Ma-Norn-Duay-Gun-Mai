@@ -78,7 +78,9 @@ namespace Ma_Norn_Duay_Gun_Mai
         // AIRCON features
         private void pictureBox5_Click(object sender, EventArgs e)
         {
-
+            this.Hide();
+            TempChoose tempChoose_var = new TempChoose();
+            tempChoose_var.Show();
         }
 
         private void pictureBox5_enter(object sender, EventArgs e)

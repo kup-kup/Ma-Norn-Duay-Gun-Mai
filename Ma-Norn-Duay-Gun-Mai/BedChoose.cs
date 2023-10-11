@@ -44,5 +44,10 @@ namespace Ma_Norn_Duay_Gun_Mai
             roompreview room_Preview_var = new roompreview();
             room_Preview_var.Show();
         }
+
+        private void BedChoose_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

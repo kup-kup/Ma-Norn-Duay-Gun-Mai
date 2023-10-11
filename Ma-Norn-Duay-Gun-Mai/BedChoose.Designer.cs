@@ -189,6 +189,7 @@
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "BedChoose";
             this.Text = "Bed Choice";
+            this.Load += new System.EventHandler(this.BedChoose_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();

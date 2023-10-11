@@ -13,9 +13,10 @@ namespace Ma_Norn_Duay_Gun_Mai
 {
     public partial class roompreview : Form
     {
-        public static class GrobalVar
+        public static class GlobalVar
         {
             public static int bed_op = 1;
+            public static String aircon_temp = "20";
         }
 
         public roompreview()
@@ -37,7 +38,7 @@ namespace Ma_Norn_Duay_Gun_Mai
 
         private void pictureBox1_enter(object sender, EventArgs e)
         {
-            switch (GrobalVar.bed_op)
+            switch (GlobalVar.bed_op)
             {
                 case 1: pictureBox1.Image = Properties.Resources.Bed1_blue_h; break;
                 case 2: pictureBox1.Image = Properties.Resources.Bed2_cream_h; break;
@@ -48,7 +49,7 @@ namespace Ma_Norn_Duay_Gun_Mai
 
         private void pictureBox1_leave(object sender, EventArgs e)
         {
-            switch (GrobalVar.bed_op)
+            switch (GlobalVar.bed_op)
             {
                 case 1: pictureBox1.Image = Properties.Resources.Bed1_blue; break;
                 case 2: pictureBox1.Image = Properties.Resources.Bed2_cream; break;
@@ -59,13 +60,17 @@ namespace Ma_Norn_Duay_Gun_Mai
 
         private void roompreview_Load(object sender, EventArgs e)
         {
-            switch (GrobalVar.bed_op)
+            // bed
+            switch (GlobalVar.bed_op)
             {
                 case 1: pictureBox1.Image = Properties.Resources.Bed1_blue; break;
                 case 2: pictureBox1.Image = Properties.Resources.Bed2_cream; break;
                 case 3: pictureBox1.Image = Properties.Resources.Bed3_grey; break;
                 case 4: pictureBox1.Image = Properties.Resources.Bed4_kid; break;
             }
+
+            // aircon
+            label1.Text = GlobalVar.aircon_temp + "C";
         }
     }
 }

@@ -20,22 +20,22 @@ namespace Ma_Norn_Duay_Gun_Mai
 
         private void radioButton1_CheckedChanged(object sender, EventArgs e)
         {
-            GrobalVar.bed_op = 1;
+            GlobalVar.bed_op = 1;
         }
 
         private void radioButton2_CheckedChanged(object sender, EventArgs e)
         {
-            GrobalVar.bed_op = 2;
+            GlobalVar.bed_op = 2;
         }
 
         private void radioButton4_CheckedChanged(object sender, EventArgs e)
         {
-            GrobalVar.bed_op = 3;
+            GlobalVar.bed_op = 3;
         }
 
         private void radioButton3_CheckedChanged(object sender, EventArgs e)
         {
-            GrobalVar.bed_op = 4;
+            GlobalVar.bed_op = 4;
         }
 
         private void button1_Click(object sender, EventArgs e)

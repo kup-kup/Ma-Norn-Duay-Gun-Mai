@@ -58,6 +58,12 @@
     <Compile Include="BedChoose.Designer.cs">
       <DependentUpon>BedChoose.cs</DependentUpon>
     </Compile>
+    <Compile Include="LampChoose.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LampChoose.Designer.cs">
+      <DependentUpon>LampChoose.cs</DependentUpon>
+    </Compile>
     <Compile Include="roompreview.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -83,6 +89,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LampChoose.resx">
+      <DependentUpon>LampChoose.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -238,6 +247,30 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\window4_red_h.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lamp1_brown1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lamp2_pink.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lamp3_red.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lamp4_yellow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lamp1_brown_h.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lamp2_pink_h1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lamp3_red_h.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lamp4_yellow_h.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

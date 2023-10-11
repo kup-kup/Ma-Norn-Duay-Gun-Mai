@@ -124,6 +124,15 @@
   <data name="Bed1_blue_h" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Bed1_blue_h.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Lamp3_red_h" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Lamp3_red_h.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Bed_blue" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Bed_blue.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="window3_pink" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\window3_pink.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Bed4_kid_h" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Bed4_kid_h.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -133,14 +142,23 @@
   <data name="window1_blue" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\window1_blue.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="up" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\up.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="window1_blue_h" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\window1_blue_h.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="361213576_2898278143635793_7378312839190816006_n" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\361213576_2898278143635793_7378312839190816006_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="window4_red_h" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\window4_red_h.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Lamp1_brown1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Lamp1_brown1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Rug_red" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Rug_red.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Lamp2_pink" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Lamp2_pink.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="aircon" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\aircon.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -157,17 +175,35 @@
   <data name="empty room" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\empty room.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="window3_pink_h" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\window3_pink_h.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Lamp4_yellow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Lamp4_yellow.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="window2_green" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\window2_green.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Lamp_red" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Lamp_red.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Window_red" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Window_red.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Bed_pink" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Bed_pink.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Lamp3_red" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Lamp3_red.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="window2_green_h" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\window2_green_h.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Rug_green" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Rug_green.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="up" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\up.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Lamp2_pink_h" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Lamp2_pink_h1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Bed2_cream_h" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Bed2_cream_h.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -181,8 +217,8 @@
   <data name="Lamp1_brown" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Lamp1_brown.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Bed_blue" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Bed_blue.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Bed_pink" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Bed_pink.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Bed_cream" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Bed_cream.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -205,8 +241,11 @@
   <data name="Bed2_cream" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Bed2_cream.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Lamp1_brown_h" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Lamp1_brown_h.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="window1_blue1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\window1_blue1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Bed1_blue1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Bed1_blue1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -217,28 +256,13 @@
   <data name="Bed1_blue" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Bed1_blue.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="window1_blue1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\window1_blue1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="window1_blue_h" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\window1_blue_h.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="window2_green" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\window2_green.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="window2_green_h" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\window2_green_h.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="window3_pink" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\window3_pink.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="window3_pink_h" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\window3_pink_h.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="window4_red" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\window4_red.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="window4_red_h" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\window4_red_h.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Lamp4_yellow_h" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Lamp4_yellow_h.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

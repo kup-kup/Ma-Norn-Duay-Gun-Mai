@@ -29,10 +29,14 @@ namespace Ma_Norn_Duay_Gun_Mai
             InitializeComponent();
         }
 
+        //LAMP Features
         private void pictureBox3_Click(object sender, EventArgs e)
         {
-
+            this.Hide();
+            LampChoose lampChoose_var = new LampChoose();
+            lampChoose_var.Show();
         }
+
 
         // BED Features
         private void pictureBox1_Click(object sender, EventArgs e)
@@ -75,6 +79,17 @@ namespace Ma_Norn_Duay_Gun_Mai
                 case 3: pictureBox1.Image = Properties.Resources.Bed3_grey; break;
                 case 4: pictureBox1.Image = Properties.Resources.Bed4_kid; break;
             }
+
+            //lamp
+            switch (GlobalVar.lamp_op)
+            {
+                case 1: pictureBox3.Image = Properties.Resources.Lamp1_brown; break;
+                case 2: pictureBox3.Image = Properties.Resources.Lamp2_pink; break;
+                case 3: pictureBox3.Image = Properties.Resources.Lamp3_red; break;
+                case 4: pictureBox3.Image = Properties.Resources.Lamp4_yellow; break;
+            }
+
+
 
             // aircon
             label1.Text = GlobalVar.aircon_temp + "C";

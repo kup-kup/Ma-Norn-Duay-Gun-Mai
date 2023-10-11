@@ -33,6 +33,11 @@ namespace Ma_Norn_Duay_Gun_Mai
         // UP BUTTON
         private void button2_Click(object sender, EventArgs e)
         {
+            if (Convert.ToInt32(GlobalVar.aircon_temp) == 40)
+            {
+                return;
+            }
+
             GlobalVar.aircon_temp = Convert.ToString(Convert.ToInt32(GlobalVar.aircon_temp) + 1);
             label2.Text = GlobalVar.aircon_temp + "C";
         }
@@ -40,6 +45,11 @@ namespace Ma_Norn_Duay_Gun_Mai
         // DOWN BUTTON
         private void button3_Click(object sender, EventArgs e)
         {
+            if (Convert.ToInt32(GlobalVar.aircon_temp) == 0)
+            {
+                return;
+            }
+
             GlobalVar.aircon_temp = Convert.ToString(Convert.ToInt32(GlobalVar.aircon_temp) - 1);
             label2.Text = GlobalVar.aircon_temp + "C";
         }

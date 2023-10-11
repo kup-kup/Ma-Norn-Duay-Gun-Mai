@@ -20,3 +20,7 @@ Preview room
 
 final room
 	ปุ่ม exit, back to introduction form
+
+Next:
+	น้องเฟิร์สทำไร
+	

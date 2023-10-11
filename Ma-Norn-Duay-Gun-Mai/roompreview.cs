@@ -29,6 +29,7 @@ namespace Ma_Norn_Duay_Gun_Mai
 
         }
 
+        // BED Features
         private void pictureBox1_Click(object sender, EventArgs e)
         {
             this.Hide();
@@ -58,6 +59,7 @@ namespace Ma_Norn_Duay_Gun_Mai
             }
         }
 
+        // FormLoad
         private void roompreview_Load(object sender, EventArgs e)
         {
             // bed

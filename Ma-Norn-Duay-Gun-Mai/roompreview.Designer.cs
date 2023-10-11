@@ -114,7 +114,7 @@
             // 
             this.pictureBox6.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox6.Image = global::Ma_Norn_Duay_Gun_Mai.Properties.Resources.window1_blue;
-            this.pictureBox6.Location = new System.Drawing.Point(695, 178);
+            this.pictureBox6.Location = new System.Drawing.Point(625, 151);
             this.pictureBox6.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox6.Name = "pictureBox6";
             this.pictureBox6.Size = new System.Drawing.Size(245, 246);

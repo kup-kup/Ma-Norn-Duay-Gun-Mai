@@ -16,6 +16,7 @@ namespace Ma_Norn_Duay_Gun_Mai
         public static class GlobalVar
         {
             public static int bed_op = 1;
+            public static int window_op = 1;
             public static String aircon_temp = "25";
         }
 
@@ -91,6 +92,34 @@ namespace Ma_Norn_Duay_Gun_Mai
         private void pictureBox5_leave(object sender, EventArgs e)
         {
             pictureBox5.Image = Properties.Resources.aircon;
+        }
+
+        // WINDOW Feature
+        private void pictureBox6_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void pictureBox6_enter(object sender, EventArgs e)
+        {
+            switch (GlobalVar.window_op)
+            {
+                case 1: pictureBox6.Image = Properties.Resources.window1_blue_h; break;
+                case 2: pictureBox6.Image = Properties.Resources.window2_green_h; break;
+                case 3: pictureBox6.Image = Properties.Resources.window3_pink_h; break;
+                case 4: pictureBox6.Image = Properties.Resources.window4_red_h; break;
+            }
+        }
+
+        private void pictureBox6_leave(object sender, EventArgs e)
+        {
+            switch (GlobalVar.window_op)
+            {
+                case 1: pictureBox6.Image = Properties.Resources.window1_blue; break;
+                case 2: pictureBox6.Image = Properties.Resources.window2_green; break;
+                case 3: pictureBox6.Image = Properties.Resources.window3_pink; break;
+                case 4: pictureBox6.Image = Properties.Resources.window4_red; break;
+            }
         }
     }
 }

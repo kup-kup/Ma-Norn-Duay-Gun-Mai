@@ -215,5 +215,29 @@
   <ItemGroup>
     <None Include="Resources\up.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\window1_blue1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\window1_blue_h.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\window2_green.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\window2_green_h.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\window3_pink.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\window3_pink_h.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\window4_red.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\window4_red_h.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

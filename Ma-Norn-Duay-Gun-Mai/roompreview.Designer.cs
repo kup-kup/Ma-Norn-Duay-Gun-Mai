@@ -113,7 +113,7 @@
             // pictureBox6
             // 
             this.pictureBox6.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox6.Image = global::Ma_Norn_Duay_Gun_Mai.Properties.Resources.window1_blue;
+            this.pictureBox6.Image = global::Ma_Norn_Duay_Gun_Mai.Properties.Resources.window1_blue1;
             this.pictureBox6.Location = new System.Drawing.Point(625, 151);
             this.pictureBox6.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox6.Name = "pictureBox6";
@@ -121,6 +121,9 @@
             this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox6.TabIndex = 5;
             this.pictureBox6.TabStop = false;
+            this.pictureBox6.Click += new System.EventHandler(this.pictureBox6_Click);
+            this.pictureBox6.MouseEnter += new System.EventHandler(this.pictureBox6_enter);
+            this.pictureBox6.MouseLeave += new System.EventHandler(this.pictureBox6_leave);
             // 
             // label1
             // 

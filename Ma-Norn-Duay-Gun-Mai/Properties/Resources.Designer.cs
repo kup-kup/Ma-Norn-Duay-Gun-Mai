@@ -183,6 +183,16 @@ namespace Ma_Norn_Duay_Gun_Mai.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Bed2_cream_h {
+            get {
+                object obj = ResourceManager.GetObject("Bed2_cream_h", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Bed3_grey {
             get {
                 object obj = ResourceManager.GetObject("Bed3_grey", resourceCulture);
@@ -193,9 +203,29 @@ namespace Ma_Norn_Duay_Gun_Mai.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Bed3_grey_h {
+            get {
+                object obj = ResourceManager.GetObject("Bed3_grey_h", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Bed4_kid {
             get {
                 object obj = ResourceManager.GetObject("Bed4_kid", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Bed4_kid_h {
+            get {
+                object obj = ResourceManager.GetObject("Bed4_kid_h", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

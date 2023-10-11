@@ -40,6 +40,9 @@ namespace Ma_Norn_Duay_Gun_Mai
             switch (GrobalVar.bed_op)
             {
                 case 1: pictureBox1.Image = Properties.Resources.Bed1_blue_h; break;
+                case 2: pictureBox1.Image = Properties.Resources.Bed2_cream_h; break;
+                case 3: pictureBox1.Image = Properties.Resources.Bed3_grey_h; break;
+                case 4: pictureBox1.Image = Properties.Resources.Bed4_kid_h; break;
             }
         }
 
@@ -48,6 +51,9 @@ namespace Ma_Norn_Duay_Gun_Mai
             switch (GrobalVar.bed_op)
             {
                 case 1: pictureBox1.Image = Properties.Resources.Bed1_blue; break;
+                case 2: pictureBox1.Image = Properties.Resources.Bed2_cream; break;
+                case 3: pictureBox1.Image = Properties.Resources.Bed3_grey; break;
+                case 4: pictureBox1.Image = Properties.Resources.Bed4_kid; break;
             }
         }
 

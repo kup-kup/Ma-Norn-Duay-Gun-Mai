@@ -150,7 +150,7 @@
             this.DoubleBuffered = true;
             this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "roompreview";
-            this.Text = "Form2";
+            this.Text = "Room Preview";
             this.Load += new System.EventHandler(this.roompreview_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();

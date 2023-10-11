@@ -209,5 +209,11 @@
   <ItemGroup>
     <None Include="Resources\aircon_h.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\up.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

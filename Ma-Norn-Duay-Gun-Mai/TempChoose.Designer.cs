@@ -31,9 +31,9 @@
             this.button1 = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             this.SuspendLayout();
             // 
@@ -70,6 +70,30 @@
             this.label2.TabIndex = 25;
             this.label2.Text = "25C";
             // 
+            // button3
+            // 
+            this.button3.BackgroundImage = global::Ma_Norn_Duay_Gun_Mai.Properties.Resources.down;
+            this.button3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.button3.Location = new System.Drawing.Point(471, 285);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(58, 46);
+            this.button3.TabIndex = 27;
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
+            // button2
+            // 
+            this.button2.BackgroundImage = global::Ma_Norn_Duay_Gun_Mai.Properties.Resources.up;
+            this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.button2.Location = new System.Drawing.Point(471, 233);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(58, 46);
+            this.button2.TabIndex = 26;
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
             // pictureBox5
             // 
             this.pictureBox5.BackColor = System.Drawing.Color.Transparent;
@@ -81,28 +105,6 @@
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox5.TabIndex = 24;
             this.pictureBox5.TabStop = false;
-            // 
-            // button2
-            // 
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-            this.button2.Location = new System.Drawing.Point(471, 233);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(114, 46);
-            this.button2.TabIndex = 26;
-            this.button2.Text = "^";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
-            // 
-            // button3
-            // 
-            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-            this.button3.Location = new System.Drawing.Point(471, 285);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(114, 46);
-            this.button3.TabIndex = 27;
-            this.button3.Text = "V";
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // TempChoose
             // 

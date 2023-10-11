@@ -243,6 +243,16 @@ namespace Ma_Norn_Duay_Gun_Mai.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap down {
+            get {
+                object obj = ResourceManager.GetObject("down", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap DressTable_brown {
             get {
                 object obj = ResourceManager.GetObject("DressTable_brown", resourceCulture);
@@ -296,6 +306,16 @@ namespace Ma_Norn_Duay_Gun_Mai.Properties {
         internal static System.Drawing.Bitmap Rug_red {
             get {
                 object obj = ResourceManager.GetObject("Rug_red", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap up {
+            get {
+                object obj = ResourceManager.GetObject("up", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -31,5 +31,10 @@ namespace Ma_Norn_Duay_Gun_Mai
         {
             pictureBox1.Image = Properties.Resources._361213576_2898278143635793_7378312839190816006_n;
         }
+
+        private void room_preview_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

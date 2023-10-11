@@ -53,6 +53,7 @@
             this.Controls.Add(this.pictureBox1);
             this.Name = "room_preview";
             this.Text = "room_preview";
+            this.Load += new System.EventHandler(this.room_preview_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 

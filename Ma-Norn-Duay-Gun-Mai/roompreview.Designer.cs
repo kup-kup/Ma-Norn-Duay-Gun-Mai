@@ -74,7 +74,7 @@
             // 
             this.pictureBox3.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox3.Image = global::Ma_Norn_Duay_Gun_Mai.Properties.Resources.Lamp1_brown;
-            this.pictureBox3.Location = new System.Drawing.Point(993, 440);
+            this.pictureBox3.Location = new System.Drawing.Point(993, 445);
             this.pictureBox3.Margin = new System.Windows.Forms.Padding(2);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(114, 126);

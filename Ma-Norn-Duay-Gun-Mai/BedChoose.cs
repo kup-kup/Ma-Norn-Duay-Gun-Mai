@@ -47,7 +47,13 @@ namespace Ma_Norn_Duay_Gun_Mai
 
         private void BedChoose_Load(object sender, EventArgs e)
         {
-
+            switch (GlobalVar.bed_op)
+            {
+                case 1: radioButton1.Select(); break;
+                case 2: radioButton2.Select(); break;
+                case 3: radioButton4.Select(); break;
+                case 4: radioButton3.Select(); break;
+            }
         }
     }
 }

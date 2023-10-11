@@ -17,6 +17,10 @@ namespace Ma_Norn_Duay_Gun_Mai
         {
             public static int bed_op = 1;
             public static int window_op = 1;
+            public static int lamp_op = 1;
+            public static int wardrobe_op = 1;
+            public static int clock_op = 1;
+            public static int owner_op = 1;
             public static String aircon_temp = "25";
         }
 

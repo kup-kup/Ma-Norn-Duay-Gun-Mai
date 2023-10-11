@@ -106,6 +106,9 @@
             this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox5.TabIndex = 4;
             this.pictureBox5.TabStop = false;
+            this.pictureBox5.Click += new System.EventHandler(this.pictureBox5_Click);
+            this.pictureBox5.MouseEnter += new System.EventHandler(this.pictureBox5_enter);
+            this.pictureBox5.MouseLeave += new System.EventHandler(this.pictureBox5_leave);
             // 
             // pictureBox6
             // 

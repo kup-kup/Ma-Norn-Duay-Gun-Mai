@@ -16,7 +16,7 @@ namespace Ma_Norn_Duay_Gun_Mai
         public static class GlobalVar
         {
             public static int bed_op = 1;
-            public static String aircon_temp = "20";
+            public static String aircon_temp = "25";
         }
 
         public roompreview()
@@ -71,6 +71,22 @@ namespace Ma_Norn_Duay_Gun_Mai
 
             // aircon
             label1.Text = GlobalVar.aircon_temp + "C";
+        }
+
+        // AIRCON features
+        private void pictureBox5_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox5_enter(object sender, EventArgs e)
+        {
+            pictureBox5.Image = Properties.Resources.aircon_h;
+        }
+
+        private void pictureBox5_leave(object sender, EventArgs e)
+        {
+            pictureBox5.Image = Properties.Resources.aircon;
         }
     }
 }

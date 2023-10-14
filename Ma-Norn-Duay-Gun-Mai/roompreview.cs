@@ -88,6 +88,35 @@ namespace Ma_Norn_Duay_Gun_Mai
             }
         }
 
+        //WARDROBE features
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            WardrobeChoose WardrobeChoose_var = new WardrobeChoose();
+            WardrobeChoose_var.Show();
+        }
+        private void pictureBox4_enter(object sender, EventArgs e)
+        {
+            switch (GlobalVar.wardrobe_op)
+            {
+                case 1: pictureBox4.Image = Properties.Resources.Ward1_kid_h; break;
+                case 2: pictureBox4.Image = Properties.Resources.Ward2_mirror_h; break;
+                case 3: pictureBox4.Image = Properties.Resources.Ward3_plain_h; break;
+                case 4: pictureBox4.Image = Properties.Resources.Ward4_white_h; break;
+            }
+        }
+
+        private void pictureBox4_leave(object sender, EventArgs e)
+        {
+            switch (GlobalVar.wardrobe_op)
+            {
+                case 1: pictureBox4.Image = Properties.Resources.Ward1_kid; break;
+                case 2: pictureBox4.Image = Properties.Resources.Ward2_mirror; break;
+                case 3: pictureBox4.Image = Properties.Resources.Ward3_plain; break;
+                case 4: pictureBox4.Image = Properties.Resources.Ward4_white; break;
+            }
+        }
+
         // FormLoad
         private void roompreview_Load(object sender, EventArgs e)
         {

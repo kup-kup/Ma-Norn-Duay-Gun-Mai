@@ -88,7 +88,7 @@
             // pictureBox4
             // 
             this.pictureBox4.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox4.Image = global::Ma_Norn_Duay_Gun_Mai.Properties.Resources.Ward1_kid;
+            this.pictureBox4.Image = global::Ma_Norn_Duay_Gun_Mai.Properties.Resources.Ward4_white_h;
             this.pictureBox4.Location = new System.Drawing.Point(15, 198);
             this.pictureBox4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.pictureBox4.Name = "pictureBox4";
@@ -96,6 +96,9 @@
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox4.TabIndex = 3;
             this.pictureBox4.TabStop = false;
+            this.pictureBox4.Click += new System.EventHandler(this.pictureBox4_Click);
+            this.pictureBox4.MouseEnter += new System.EventHandler(this.pictureBox4_enter);
+            this.pictureBox4.MouseLeave += new System.EventHandler(this.pictureBox4_leave);
             // 
             // pictureBox5
             // 

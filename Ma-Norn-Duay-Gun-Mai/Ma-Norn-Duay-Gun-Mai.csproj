@@ -281,5 +281,17 @@
   <ItemGroup>
     <None Include="Resources\Ward4_white.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ward1_kid_h.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ward2_mirror_h.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ward3_plain_h.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ward4_white_h.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

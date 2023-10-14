@@ -150,10 +150,10 @@ namespace Ma_Norn_Duay_Gun_Mai
             // clock
             switch (GlobalVar.clock_op)
             {
-                case 1: pictureBox7.Image = Properties.Resources.window1_blue; break;
-                case 2: pictureBox7.Image = Properties.Resources.window2_green; break;
-                case 3: pictureBox7.Image = Properties.Resources.window3_pink; break;
-                case 4: pictureBox7.Image = Properties.Resources.window4_red; break;
+                case 1: pictureBox7.Image = Properties.Resources.clock1_pink; break;
+                case 2: pictureBox7.Image = Properties.Resources.clock2_kid; break;
+                case 3: pictureBox7.Image = Properties.Resources.clock3_old; break;
+                case 4: pictureBox7.Image = Properties.Resources.clock4_cuckoo; break;
             }
 
             // aircon
@@ -205,6 +205,34 @@ namespace Ma_Norn_Duay_Gun_Mai
                 case 2: pictureBox6.Image = Properties.Resources.window2_green; break;
                 case 3: pictureBox6.Image = Properties.Resources.window3_pink; break;
                 case 4: pictureBox6.Image = Properties.Resources.window4_red; break;
+            }
+        }
+
+        // CLOCK Features
+        private void pictureBox7_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pictureBox7_enter(object sender, EventArgs e)
+        {
+            switch (GlobalVar.clock_op)
+            {
+                case 1: pictureBox7.Image = Properties.Resources.clock1_pink_h; break;
+                case 2: pictureBox7.Image = Properties.Resources.clock2_kid_h; break;
+                case 3: pictureBox7.Image = Properties.Resources.clock3_old_h; break;
+                case 4: pictureBox7.Image = Properties.Resources.clock4_cuckoo_h; break;
+            }
+        }
+
+        private void pictureBox7_leave(object sender, EventArgs e)
+        {
+            switch (GlobalVar.clock_op)
+            {
+                case 1: pictureBox7.Image = Properties.Resources.clock1_pink; break;
+                case 2: pictureBox7.Image = Properties.Resources.clock2_kid; break;
+                case 3: pictureBox7.Image = Properties.Resources.clock3_old; break;
+                case 4: pictureBox7.Image = Properties.Resources.clock4_cuckoo; break;
             }
         }
     }

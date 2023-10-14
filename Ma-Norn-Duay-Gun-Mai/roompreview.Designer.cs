@@ -155,6 +155,9 @@
             this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox7.TabIndex = 7;
             this.pictureBox7.TabStop = false;
+            this.pictureBox7.Click += new System.EventHandler(this.pictureBox7_Click);
+            this.pictureBox7.MouseEnter += new System.EventHandler(this.pictureBox7_enter);
+            this.pictureBox7.MouseLeave += new System.EventHandler(this.pictureBox7_leave);
             // 
             // roompreview
             // 

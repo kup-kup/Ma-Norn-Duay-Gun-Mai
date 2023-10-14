@@ -141,10 +141,10 @@ namespace Ma_Norn_Duay_Gun_Mai
             //window
             switch (GlobalVar.window_op)
             {
-                case 1: pictureBox6.Image = Properties.Resources.Lamp1_brown; break;
-                case 2: pictureBox6.Image = Properties.Resources.Lamp2_pink; break;
-                case 3: pictureBox6.Image = Properties.Resources.Lamp3_red; break;
-                case 4: pictureBox6.Image = Properties.Resources.Lamp4_yellow; break;
+                case 1: pictureBox6.Image = Properties.Resources.window1_blue; break;
+                case 2: pictureBox6.Image = Properties.Resources.window2_green; break;
+                case 3: pictureBox6.Image = Properties.Resources.window3_pink; break;
+                case 4: pictureBox6.Image = Properties.Resources.window4_red; break;
             }
 
             // aircon

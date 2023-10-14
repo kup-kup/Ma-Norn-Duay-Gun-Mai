@@ -58,6 +58,12 @@
     <Compile Include="BedChoose.Designer.cs">
       <DependentUpon>BedChoose.cs</DependentUpon>
     </Compile>
+    <Compile Include="ClockChoose.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ClockChoose.Designer.cs">
+      <DependentUpon>ClockChoose.cs</DependentUpon>
+    </Compile>
     <Compile Include="WardrobeChoose.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -92,6 +98,9 @@
     </Compile>
     <EmbeddedResource Include="BedChoose.resx">
       <DependentUpon>BedChoose.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ClockChoose.resx">
+      <DependentUpon>ClockChoose.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>

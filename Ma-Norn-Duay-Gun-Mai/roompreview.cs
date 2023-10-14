@@ -36,7 +36,27 @@ namespace Ma_Norn_Duay_Gun_Mai
             LampChoose lampChoose_var = new LampChoose();
             lampChoose_var.Show();
         }
+        private void pictureBox3_enter(object sender, EventArgs e)
+        {
+            switch (GlobalVar.lamp_op)
+            {
+                case 1: pictureBox3.Image = Properties.Resources.Lamp1_brown_h; break;
+                case 2: pictureBox3.Image = Properties.Resources.Lamp2_pink_h; break;
+                case 3: pictureBox3.Image = Properties.Resources.Lamp3_red_h; break;
+                case 4: pictureBox3.Image = Properties.Resources.Lamp4_yellow_h; break;
+            }
+        }
 
+        private void pictureBox3_leave(object sender, EventArgs e)
+        {
+            switch (GlobalVar.lamp_op)
+            {
+                case 1: pictureBox3.Image = Properties.Resources.Lamp1_brown; break;
+                case 2: pictureBox3.Image = Properties.Resources.Lamp2_pink; break;
+                case 3: pictureBox3.Image = Properties.Resources.Lamp3_red; break;
+                case 4: pictureBox3.Image = Properties.Resources.Lamp4_yellow; break;
+            }
+        }
 
         // BED Features
         private void pictureBox1_Click(object sender, EventArgs e)

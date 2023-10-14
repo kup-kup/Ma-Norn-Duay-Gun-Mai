@@ -58,6 +58,12 @@
     <Compile Include="BedChoose.Designer.cs">
       <DependentUpon>BedChoose.cs</DependentUpon>
     </Compile>
+    <Compile Include="WardrobeChoose.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WardrobeChoose.Designer.cs">
+      <DependentUpon>WardrobeChoose.cs</DependentUpon>
+    </Compile>
     <Compile Include="LampChoose.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -72,12 +78,6 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="room_previeww.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="room_previeww.Designer.cs">
-      <DependentUpon>room_previeww.cs</DependentUpon>
-    </Compile>
     <Compile Include="TempChoose.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -106,11 +106,11 @@
     <EmbeddedResource Include="roompreview.resx">
       <DependentUpon>roompreview.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="room_previeww.resx">
-      <DependentUpon>room_previeww.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="TempChoose.resx">
       <DependentUpon>TempChoose.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WardrobeChoose.resx">
+      <DependentUpon>WardrobeChoose.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -271,6 +271,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Lamp4_yellow_h.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ward2_mirror.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ward3_plain.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ward4_white.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

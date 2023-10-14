@@ -433,6 +433,36 @@ namespace Ma_Norn_Duay_Gun_Mai.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Ward2_mirror {
+            get {
+                object obj = ResourceManager.GetObject("Ward2_mirror", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Ward3_plain {
+            get {
+                object obj = ResourceManager.GetObject("Ward3_plain", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Ward4_white {
+            get {
+                object obj = ResourceManager.GetObject("Ward4_white", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Window_red {
             get {
                 object obj = ResourceManager.GetObject("Window_red", resourceCulture);

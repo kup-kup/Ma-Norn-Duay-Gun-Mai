@@ -138,7 +138,14 @@ namespace Ma_Norn_Duay_Gun_Mai
                 case 4: pictureBox3.Image = Properties.Resources.Lamp4_yellow; break;
             }
 
-
+            //window
+            switch (GlobalVar.window_op)
+            {
+                case 1: pictureBox6.Image = Properties.Resources.Lamp1_brown; break;
+                case 2: pictureBox6.Image = Properties.Resources.Lamp2_pink; break;
+                case 3: pictureBox6.Image = Properties.Resources.Lamp3_red; break;
+                case 4: pictureBox6.Image = Properties.Resources.Lamp4_yellow; break;
+            }
 
             // aircon
             label1.Text = GlobalVar.aircon_temp + "C";
@@ -162,10 +169,12 @@ namespace Ma_Norn_Duay_Gun_Mai
             pictureBox5.Image = Properties.Resources.aircon;
         }
 
-        // WINDOW Feature
+        // WINDOW Features
         private void pictureBox6_Click(object sender, EventArgs e)
         {
-            
+            this.Hide();
+            WindowChoose WindowChoose_var = new WindowChoose();
+            WindowChoose_var.Show();
         }
 
         private void pictureBox6_enter(object sender, EventArgs e)

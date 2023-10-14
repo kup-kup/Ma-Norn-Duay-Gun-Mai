@@ -84,6 +84,12 @@
     <Compile Include="TempChoose.Designer.cs">
       <DependentUpon>TempChoose.cs</DependentUpon>
     </Compile>
+    <Compile Include="WindowChoose.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="WindowChoose.Designer.cs">
+      <DependentUpon>WindowChoose.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="BedChoose.resx">
       <DependentUpon>BedChoose.cs</DependentUpon>
     </EmbeddedResource>
@@ -111,6 +117,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="WardrobeChoose.resx">
       <DependentUpon>WardrobeChoose.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="WindowChoose.resx">
+      <DependentUpon>WindowChoose.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

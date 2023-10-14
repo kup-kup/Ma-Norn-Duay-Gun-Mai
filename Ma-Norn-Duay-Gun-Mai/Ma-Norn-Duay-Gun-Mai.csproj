@@ -302,5 +302,29 @@
   <ItemGroup>
     <None Include="Resources\Ward4_white_h.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clock1_pink.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clock1_pink_h.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clock2_kid.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clock2_kid_h.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clock3_old.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clock3_old_h.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clock4_cuckoo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\clock4_cuckoo_h.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

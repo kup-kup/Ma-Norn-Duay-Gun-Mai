@@ -138,13 +138,22 @@ namespace Ma_Norn_Duay_Gun_Mai
                 case 4: pictureBox3.Image = Properties.Resources.Lamp4_yellow; break;
             }
 
-            //window
+            // window
             switch (GlobalVar.window_op)
             {
                 case 1: pictureBox6.Image = Properties.Resources.window1_blue; break;
                 case 2: pictureBox6.Image = Properties.Resources.window2_green; break;
                 case 3: pictureBox6.Image = Properties.Resources.window3_pink; break;
                 case 4: pictureBox6.Image = Properties.Resources.window4_red; break;
+            }
+
+            // clock
+            switch (GlobalVar.clock_op)
+            {
+                case 1: pictureBox7.Image = Properties.Resources.window1_blue; break;
+                case 2: pictureBox7.Image = Properties.Resources.window2_green; break;
+                case 3: pictureBox7.Image = Properties.Resources.window3_pink; break;
+                case 4: pictureBox7.Image = Properties.Resources.window4_red; break;
             }
 
             // aircon

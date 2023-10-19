@@ -95,11 +95,13 @@
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Forte", 25.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.Peru;
             this.label1.Location = new System.Drawing.Point(279, 98);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(343, 48);
+            this.label1.Size = new System.Drawing.Size(333, 47);
             this.label1.TabIndex = 12;
             this.label1.Text = "Choose your bed";
             // 
@@ -161,8 +163,9 @@
             // 
             // button1
             // 
+            this.button1.ForeColor = System.Drawing.Color.SaddleBrown;
             this.button1.Location = new System.Drawing.Point(397, 177);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(100, 28);
             this.button1.TabIndex = 13;

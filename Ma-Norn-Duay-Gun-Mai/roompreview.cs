@@ -211,7 +211,9 @@ namespace Ma_Norn_Duay_Gun_Mai
         // CLOCK Features
         private void pictureBox7_Click(object sender, EventArgs e)
         {
-
+            this.Hide();
+            ClockChoose ClockChoose_var = new ClockChoose();
+            ClockChoose_var.Show();
         }
 
         private void pictureBox7_enter(object sender, EventArgs e)

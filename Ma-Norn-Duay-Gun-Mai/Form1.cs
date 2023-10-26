@@ -22,8 +22,12 @@ namespace Ma_Norn_Duay_Gun_Mai
             this.Hide();
             // room_preview room_Preview_var = new room_preview();
             // room_Preview_var.Show();
-            roompreview room_Preview_var = new roompreview();
-            room_Preview_var.Show();
+
+            //roompreview room_Preview_var = new roompreview();
+            //room_Preview_var.Show();
+
+            explain explain_var = new explain();
+            explain_var.Show();
         }
 
         private void button2_Click(object sender, EventArgs e)
@@ -42,6 +46,11 @@ namespace Ma_Norn_Duay_Gun_Mai
         }
 
         private void label2_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Title_Load(object sender, EventArgs e)
         {
 
         }

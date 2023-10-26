@@ -54,5 +54,10 @@ namespace Ma_Norn_Duay_Gun_Mai
         {
 
         }
+
+        private void moveTimerEvent(object sender, EventArgs e)
+        {
+            
+        }
     }
 }

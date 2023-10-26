@@ -347,5 +347,8 @@
   <ItemGroup>
     <None Include="Resources\room_pre.PNG" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\room_pre_blur.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

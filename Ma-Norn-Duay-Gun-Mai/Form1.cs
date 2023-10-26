@@ -12,6 +12,9 @@ namespace Ma_Norn_Duay_Gun_Mai
 {
     public partial class Title : Form
     {
+        int hold_timer = 0, speed = 12;
+        string moving = "left";
+
         public Title()
         {
             InitializeComponent();
@@ -57,7 +60,37 @@ namespace Ma_Norn_Duay_Gun_Mai
 
         private void moveTimerEvent(object sender, EventArgs e)
         {
-            
+            //0, 543
+            if (moving == "right")
+            {
+                if (pictureBox1.Left < 543)
+                {
+                    pictureBox1.Left += speed;
+                    return;
+                }
+
+                hold_timer += speed;
+                if (hold_timer >= 60)
+                {
+                    moving = "left";
+                }
+            }
+
+            if (moving == "left")
+            {
+                if (pictureBox1.Left > 0)
+                {
+                    pictureBox1.Left -= speed;
+                    return;
+                }
+
+                hold_timer -= speed;
+                if (hold_timer <= 0)
+                {
+                    moving = "right";
+                }
+            }
+
         }
     }
 }

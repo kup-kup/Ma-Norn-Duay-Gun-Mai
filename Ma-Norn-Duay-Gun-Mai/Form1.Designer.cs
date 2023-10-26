@@ -36,6 +36,8 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // enter_button
@@ -64,6 +66,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Showcard Gothic", 28.2F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(75, 31);
             this.label1.Name = "label1";
@@ -110,6 +113,16 @@
             this.timer1.Interval = 20;
             this.timer1.Tick += new System.EventHandler(this.moveTimerEvent);
             // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = global::Ma_Norn_Duay_Gun_Mai.Properties.Resources.room_pre_blur;
+            this.pictureBox1.Location = new System.Drawing.Point(-2, 0);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(1178, 755);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox1.TabIndex = 6;
+            this.pictureBox1.TabStop = false;
+            // 
             // Title
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -121,9 +134,11 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.exit_button);
             this.Controls.Add(this.enter_button);
+            this.Controls.Add(this.pictureBox1);
             this.Name = "Title";
             this.Text = "Ma-Norn-Duay-Gun-Mai";
             this.Load += new System.EventHandler(this.Title_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -138,6 +153,7 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Timer timer1;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
 

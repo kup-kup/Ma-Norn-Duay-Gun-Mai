@@ -19,6 +19,7 @@ namespace Ma_Norn_Duay_Gun_Mai
 
         private void next_button_Click(object sender, EventArgs e)
         {
+            this.Hide();
             roompreview room_Preview_var = new roompreview();
             room_Preview_var.Show();
         }

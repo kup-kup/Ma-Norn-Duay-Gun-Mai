@@ -344,5 +344,8 @@
   <ItemGroup>
     <None Include="Resources\clock4_cuckoo_h.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\room_pre.PNG" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

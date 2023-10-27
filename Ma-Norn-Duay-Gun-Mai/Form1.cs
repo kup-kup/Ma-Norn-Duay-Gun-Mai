@@ -12,7 +12,7 @@ namespace Ma_Norn_Duay_Gun_Mai
 {
     public partial class Title : Form
     {
-        int hold_timer = 0, speed = 12;
+        int hold_timer = 0, speed = 2, hold_for = 110;
         string moving = "left";
 
         public Title()
@@ -63,32 +63,26 @@ namespace Ma_Norn_Duay_Gun_Mai
             //0, 543
             if (moving == "right")
             {
-                if (pictureBox1.Left < 543)
+                if (pictureBox1.Left <= 0)
                 {
                     pictureBox1.Left += speed;
                     return;
                 }
 
-                hold_timer += speed;
-                if (hold_timer >= 60)
-                {
-                    moving = "left";
-                }
+                hold_timer -= speed;
+                if (hold_timer <= 0) moving = "left";
             }
 
             if (moving == "left")
             {
-                if (pictureBox1.Left > 0)
+                if (pictureBox1.Left >= -543)
                 {
                     pictureBox1.Left -= speed;
                     return;
                 }
 
-                hold_timer -= speed;
-                if (hold_timer <= 0)
-                {
-                    moving = "right";
-                }
+                hold_timer += speed;
+                if (hold_timer >= hold_for) moving = "right";
             }
 
         }

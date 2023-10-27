@@ -116,7 +116,7 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::Ma_Norn_Duay_Gun_Mai.Properties.Resources.room_pre_blur;
-            this.pictureBox1.Location = new System.Drawing.Point(-2, 0);
+            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(1178, 755);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;

@@ -53,6 +53,11 @@ namespace Ma_Norn_Duay_Gun_Mai
 
         }
 
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
         private void Title_Load(object sender, EventArgs e)
         {
 

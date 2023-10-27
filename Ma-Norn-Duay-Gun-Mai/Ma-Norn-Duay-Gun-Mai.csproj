@@ -350,5 +350,11 @@
   <ItemGroup>
     <None Include="Resources\room_pre_blur.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\name_holder_bland.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\title_holder_bland.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

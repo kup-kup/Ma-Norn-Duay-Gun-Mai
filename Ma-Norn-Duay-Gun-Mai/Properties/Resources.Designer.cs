@@ -453,6 +453,26 @@ namespace Ma_Norn_Duay_Gun_Mai.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap name_holder {
+            get {
+                object obj = ResourceManager.GetObject("name_holder", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap name_holder_bland {
+            get {
+                object obj = ResourceManager.GetObject("name_holder_bland", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap room_pre {
             get {
                 object obj = ResourceManager.GetObject("room_pre", resourceCulture);
@@ -486,6 +506,26 @@ namespace Ma_Norn_Duay_Gun_Mai.Properties {
         internal static System.Drawing.Bitmap Rug_red {
             get {
                 object obj = ResourceManager.GetObject("Rug_red", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap title_holder {
+            get {
+                object obj = ResourceManager.GetObject("title_holder", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap title_holder_bland {
+            get {
+                object obj = ResourceManager.GetObject("title_holder_bland", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

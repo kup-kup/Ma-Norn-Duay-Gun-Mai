@@ -40,6 +40,7 @@
             this.pictureBox6 = new System.Windows.Forms.PictureBox();
             this.pictureBox7 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -78,7 +79,7 @@
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.Transparent;
             this.label3.Font = new System.Drawing.Font("Showcard Gothic", 29.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(50, 59);
+            this.label3.Location = new System.Drawing.Point(38, 46);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(266, 49);
             this.label3.TabIndex = 15;
@@ -89,7 +90,7 @@
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Transparent;
             this.label2.Font = new System.Drawing.Font("Showcard Gothic", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(71, 29);
+            this.label2.Location = new System.Drawing.Point(59, 16);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(69, 36);
             this.label2.TabIndex = 14;
@@ -184,11 +185,23 @@
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Showcard Gothic", 29.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(68, 101);
+            this.label1.Location = new System.Drawing.Point(56, 88);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(152, 49);
             this.label1.TabIndex = 23;
             this.label1.Text = "room!";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(32)))), ((int)(((byte)(32)))), ((int)(((byte)(32)))));
+            this.label4.Font = new System.Drawing.Font("MS UI Gothic", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.Color.Cyan;
+            this.label4.Location = new System.Drawing.Point(883, 48);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(46, 21);
+            this.label4.TabIndex = 24;
+            this.label4.Text = "25C";
             // 
             // FinalForm
             // 
@@ -196,6 +209,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::Ma_Norn_Duay_Gun_Mai.Properties.Resources.empty_room;
             this.ClientSize = new System.Drawing.Size(1184, 761);
+            this.Controls.Add(this.label4);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox7);
             this.Controls.Add(this.pictureBox6);
@@ -210,6 +224,7 @@
             this.Controls.Add(this.button1);
             this.Name = "FinalForm";
             this.Text = "Final Room!";
+            this.Load += new System.EventHandler(this.FinalForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
@@ -236,5 +251,6 @@
         private System.Windows.Forms.PictureBox pictureBox6;
         private System.Windows.Forms.PictureBox pictureBox7;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label4;
     }
 }

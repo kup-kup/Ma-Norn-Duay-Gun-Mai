@@ -89,7 +89,6 @@ namespace Ma_Norn_Duay_Gun_Mai
                 hold_timer += speed;
                 if (hold_timer >= hold_for) moving = "right";
             }
-
         }
     }
 }

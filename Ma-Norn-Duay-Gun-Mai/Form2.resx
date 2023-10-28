@@ -117,4 +117,13 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="textBox1.Text" xml:space="preserve">
+    <value>Welcome to Ma-Norn-Duay-Gun-Mai!
+
+In this program you will be able to 
+customize a bedroom as you wish!
+
+Move your cursur onto an object, 
+if it gets highlighted, then it is time for you to customize!</value>
+  </data>
 </root>

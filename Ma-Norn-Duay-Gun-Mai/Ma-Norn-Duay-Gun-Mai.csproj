@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FinalForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FinalForm.Designer.cs">
+      <DependentUpon>FinalForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -69,6 +75,12 @@
     </Compile>
     <Compile Include="Form2.Designer.cs">
       <DependentUpon>Form2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="OwnerChoose.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="OwnerChoose.Designer.cs">
+      <DependentUpon>OwnerChoose.cs</DependentUpon>
     </Compile>
     <Compile Include="WardrobeChoose.cs">
       <SubType>Form</SubType>

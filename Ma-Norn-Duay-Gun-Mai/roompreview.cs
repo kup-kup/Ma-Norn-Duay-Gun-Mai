@@ -237,5 +237,15 @@ namespace Ma_Norn_Duay_Gun_Mai
                 case 4: pictureBox7.Image = Properties.Resources.clock4_cuckoo; break;
             }
         }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

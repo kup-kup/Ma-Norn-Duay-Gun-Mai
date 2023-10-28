@@ -353,6 +353,16 @@ namespace Ma_Norn_Duay_Gun_Mai.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap highlight_ex_mouse {
+            get {
+                object obj = ResourceManager.GetObject("highlight_ex_mouse", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Lamp_red {
             get {
                 object obj = ResourceManager.GetObject("Lamp_red", resourceCulture);

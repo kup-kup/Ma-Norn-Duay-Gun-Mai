@@ -25,6 +25,15 @@ namespace Ma_Norn_Duay_Gun_Mai
 
         private void button1_Click(object sender, EventArgs e)
         {
+            // reset value to default
+            GlobalVar.bed_op = 1;
+            GlobalVar.window_op = 1;
+            GlobalVar.wardrobe_op = 1;
+            GlobalVar.clock_op = 1;
+            GlobalVar.lamp_op = 1;
+            GlobalVar.owner_op = 1;
+            GlobalVar.aircon_temp = "25";
+
             this.Hide();
             Title title_var = new Title();
             title_var.Show();

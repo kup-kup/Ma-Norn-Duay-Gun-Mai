@@ -196,6 +196,7 @@
             this.next_button.Text = "Finalize";
             this.next_button.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
             this.next_button.UseVisualStyleBackColor = true;
+            this.next_button.Click += new System.EventHandler(this.next_button_Click);
             // 
             // button1
             // 

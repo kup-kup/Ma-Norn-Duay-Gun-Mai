@@ -110,7 +110,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.next_button);
             this.Name = "explain";
-            this.Text = "Explanation";
+            this.Text = "How does it work?!";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();

@@ -245,7 +245,16 @@ namespace Ma_Norn_Duay_Gun_Mai
 
         private void button1_Click(object sender, EventArgs e)
         {
+            this.Hide();
+            OwnerChoose OwnerChoose_var = new OwnerChoose();
+            OwnerChoose_var.Show();
+        }
 
+        private void next_button_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            FinalForm FinalForm_var = new FinalForm();
+            FinalForm_var.Show();
         }
     }
 }

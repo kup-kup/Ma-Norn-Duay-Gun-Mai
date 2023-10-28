@@ -16,5 +16,17 @@ namespace Ma_Norn_Duay_Gun_Mai
         {
             InitializeComponent();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Title title_var = new Title();
+            title_var.Show();
+        }
     }
 }

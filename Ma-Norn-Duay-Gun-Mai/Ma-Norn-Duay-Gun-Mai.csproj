@@ -120,6 +120,9 @@
     <EmbeddedResource Include="ClockChoose.resx">
       <DependentUpon>ClockChoose.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FinalForm.resx">
+      <DependentUpon>FinalForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -128,6 +131,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="LampChoose.resx">
       <DependentUpon>LampChoose.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="OwnerChoose.resx">
+      <DependentUpon>OwnerChoose.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

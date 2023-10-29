@@ -29,7 +29,7 @@ namespace Ma_Norn_Duay_Gun_Mai
             InitializeComponent();
         }
 
-        //OWNER Features
+ 
 
         //LAMP Features
         private void pictureBox3_Click(object sender, EventArgs e)
@@ -160,6 +160,18 @@ namespace Ma_Norn_Duay_Gun_Mai
 
             // aircon
             label1.Text = GlobalVar.aircon_temp + "C";
+
+            // owner
+            switch (GlobalVar.owner_op)
+            {
+                case 1: pictureBox8.Image = Properties.Resources.Udon1; break;
+                case 2: pictureBox8.Image = Properties.Resources.Mix; break;
+                case 3: pictureBox8.Image = Properties.Resources.Boss; break;
+                case 4: pictureBox8.Image = Properties.Resources.Pitt; break;
+                case 5: pictureBox8.Image = Properties.Resources.Pang; break;
+                case 6: pictureBox8.Image = Properties.Resources.Nuey; break;
+                case 7: pictureBox8.Image = Properties.Resources.Chi; break;
+            }
         }
 
         // AIRCON features
@@ -258,6 +270,42 @@ namespace Ma_Norn_Duay_Gun_Mai
             this.Hide();
             FinalForm FinalForm_var = new FinalForm();
             FinalForm_var.Show();
+        }
+
+        //OWNER Features
+
+        private void pictureBox8_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            OwnerChoose OwnerChoose_var = new OwnerChoose();
+            OwnerChoose_var.Show();
+        }
+        private void pictureBox8_enter(object sender, EventArgs e)
+        {
+            switch (GlobalVar.owner_op)
+            {
+                case 1: pictureBox8.Image = Properties.Resources.Udon1; break;
+                case 2: pictureBox8.Image = Properties.Resources.Mix; break;
+                case 3: pictureBox8.Image = Properties.Resources.Boss; break;
+                case 4: pictureBox8.Image = Properties.Resources.Pitt; break;
+                case 5: pictureBox8.Image = Properties.Resources.Pang; break;
+                case 6: pictureBox8.Image = Properties.Resources.Nuey; break;
+                case 7: pictureBox8.Image = Properties.Resources.Chi; break;
+            }
+        }
+
+        private void pictureBox8_leave(object sender, EventArgs e)
+        {
+            switch (GlobalVar.owner_op)
+            {
+                case 1: pictureBox8.Image = Properties.Resources.Udon1; break;
+                case 2: pictureBox8.Image = Properties.Resources.Mix; break;
+                case 3: pictureBox8.Image = Properties.Resources.Boss; break;
+                case 4: pictureBox8.Image = Properties.Resources.Pitt; break;
+                case 5: pictureBox8.Image = Properties.Resources.Pang; break;
+                case 6: pictureBox8.Image = Properties.Resources.Nuey; break;
+                case 7: pictureBox8.Image = Properties.Resources.Chi; break;
+            }
         }
     }
 }

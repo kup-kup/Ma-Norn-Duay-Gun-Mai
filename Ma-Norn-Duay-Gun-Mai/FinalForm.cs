@@ -79,6 +79,18 @@ namespace Ma_Norn_Duay_Gun_Mai
 
             // aircon
             label4.Text = GlobalVar.aircon_temp + "C";
+
+            //owner
+            switch (GlobalVar.owner_op)
+            {
+                case 1: pictureBox8.Image = Properties.Resources.Udon1; break;
+                case 2: pictureBox8.Image = Properties.Resources.Mix; break;
+                case 3: pictureBox8.Image = Properties.Resources.Boss; break;
+                case 4: pictureBox8.Image = Properties.Resources.Pitt; break;
+                case 5: pictureBox8.Image = Properties.Resources.Pang; break;
+                case 6: pictureBox8.Image = Properties.Resources.Nuey; break;
+                case 7: pictureBox8.Image = Properties.Resources.Chi; break;
+            }
         }
     }
 }

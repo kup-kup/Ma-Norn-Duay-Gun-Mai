@@ -229,6 +229,9 @@
             this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox8.TabIndex = 12;
             this.pictureBox8.TabStop = false;
+            this.pictureBox8.Click += new System.EventHandler(this.pictureBox8_Click);
+            this.pictureBox8.MouseEnter += new System.EventHandler(this.pictureBox8_enter);
+            this.pictureBox8.MouseLeave += new System.EventHandler(this.pictureBox8_leave);
             // 
             // roompreview
             // 

@@ -39,10 +39,12 @@
             // 
             // next_button
             // 
-            this.next_button.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-            this.next_button.Location = new System.Drawing.Point(499, 585);
+            this.next_button.Font = new System.Drawing.Font("Arial Rounded MT Bold", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.next_button.ForeColor = System.Drawing.Color.DarkOrange;
+            this.next_button.Location = new System.Drawing.Point(665, 720);
+            this.next_button.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.next_button.Name = "next_button";
-            this.next_button.Size = new System.Drawing.Size(110, 54);
+            this.next_button.Size = new System.Drawing.Size(147, 66);
             this.next_button.TabIndex = 1;
             this.next_button.Text = "Next";
             this.next_button.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
@@ -53,20 +55,24 @@
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Showcard Gothic", 29.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(100, 51);
+            this.label1.Font = new System.Drawing.Font("Cooper Black", 28.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.IndianRed;
+            this.label1.Location = new System.Drawing.Point(169, 63);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(439, 49);
+            this.label1.Size = new System.Drawing.Size(507, 56);
             this.label1.TabIndex = 3;
             this.label1.Text = "How does it work?!";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // button1
             // 
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
-            this.button1.Location = new System.Drawing.Point(25, 585);
+            this.button1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.Color.DarkOrange;
+            this.button1.Location = new System.Drawing.Point(33, 720);
+            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(110, 54);
+            this.button1.Size = new System.Drawing.Size(147, 66);
             this.button1.TabIndex = 4;
             this.button1.Text = "Back";
             this.button1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
@@ -78,11 +84,13 @@
             this.textBox1.BackColor = System.Drawing.Color.AntiqueWhite;
             this.textBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox1.Enabled = false;
-            this.textBox1.Font = new System.Drawing.Font("Arial", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(66, 374);
+            this.textBox1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.ForeColor = System.Drawing.Color.Chocolate;
+            this.textBox1.Location = new System.Drawing.Point(33, 460);
+            this.textBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(500, 205);
+            this.textBox1.Size = new System.Drawing.Size(754, 252);
             this.textBox1.TabIndex = 6;
             this.textBox1.Text = resources.GetString("textBox1.Text");
             this.textBox1.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
@@ -91,24 +99,26 @@
             // pictureBox1
             // 
             this.pictureBox1.Image = global::Ma_Norn_Duay_Gun_Mai.Properties.Resources.highlight_ex_mouse;
-            this.pictureBox1.Location = new System.Drawing.Point(134, 115);
+            this.pictureBox1.Location = new System.Drawing.Point(179, 142);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(358, 242);
+            this.pictureBox1.Size = new System.Drawing.Size(477, 298);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 7;
             this.pictureBox1.TabStop = false;
             // 
             // explain
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.AntiqueWhite;
-            this.ClientSize = new System.Drawing.Size(634, 661);
+            this.ClientSize = new System.Drawing.Size(845, 814);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.next_button);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "explain";
             this.Text = "How does it work?!";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();

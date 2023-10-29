@@ -401,5 +401,20 @@
   <ItemGroup>
     <None Include="Resources\Nuey.PNG" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cute-happy-smiling-child-isolated-white-background_1308-70301.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cute-girl-cartoon-character-vector-31358072.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\m2K9A0d3m2H7A0Z5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\m2K9A0d3m2H7A0Z51.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image_processing20200424-23052-lwkjqt.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

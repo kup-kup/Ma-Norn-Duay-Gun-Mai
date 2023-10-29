@@ -343,6 +343,26 @@ namespace Ma_Norn_Duay_Gun_Mai.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap cute_girl_cartoon_character_vector_31358072 {
+            get {
+                object obj = ResourceManager.GetObject("cute-girl-cartoon-character-vector-31358072", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap cute_happy_smiling_child_isolated_white_background_1308_70301 {
+            get {
+                object obj = ResourceManager.GetObject("cute-happy-smiling-child-isolated-white-background_1308-70301", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap down {
             get {
                 object obj = ResourceManager.GetObject("down", resourceCulture);
@@ -376,6 +396,16 @@ namespace Ma_Norn_Duay_Gun_Mai.Properties {
         internal static System.Drawing.Bitmap highlight_ex_mouse {
             get {
                 object obj = ResourceManager.GetObject("highlight_ex_mouse", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap image_processing20200424_23052_lwkjqt {
+            get {
+                object obj = ResourceManager.GetObject("image_processing20200424-23052-lwkjqt", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -476,6 +506,26 @@ namespace Ma_Norn_Duay_Gun_Mai.Properties {
         internal static System.Drawing.Bitmap Lamp4_yellow_h {
             get {
                 object obj = ResourceManager.GetObject("Lamp4_yellow_h", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap m2K9A0d3m2H7A0Z5 {
+            get {
+                object obj = ResourceManager.GetObject("m2K9A0d3m2H7A0Z5", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap m2K9A0d3m2H7A0Z51 {
+            get {
+                object obj = ResourceManager.GetObject("m2K9A0d3m2H7A0Z51", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

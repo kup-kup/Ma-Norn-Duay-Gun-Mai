@@ -37,15 +37,16 @@
             this.label3 = new System.Windows.Forms.Label();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // enter_button
             // 
+            this.enter_button.BackColor = System.Drawing.Color.NavajoWhite;
             this.enter_button.Font = new System.Drawing.Font("Arial Rounded MT Bold", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.enter_button.ForeColor = System.Drawing.Color.DarkOrange;
             this.enter_button.Location = new System.Drawing.Point(107, 658);
@@ -55,11 +56,12 @@
             this.enter_button.TabIndex = 0;
             this.enter_button.Text = "Enter Program";
             this.enter_button.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.enter_button.UseVisualStyleBackColor = true;
+            this.enter_button.UseVisualStyleBackColor = false;
             this.enter_button.Click += new System.EventHandler(this.button1_Click);
             // 
             // exit_button
             // 
+            this.exit_button.BackColor = System.Drawing.Color.NavajoWhite;
             this.exit_button.Font = new System.Drawing.Font("Arial Rounded MT Bold", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.exit_button.ForeColor = System.Drawing.Color.DarkOrange;
             this.exit_button.Location = new System.Drawing.Point(456, 658);
@@ -68,7 +70,7 @@
             this.exit_button.Size = new System.Drawing.Size(265, 55);
             this.exit_button.TabIndex = 1;
             this.exit_button.Text = "Exit";
-            this.exit_button.UseVisualStyleBackColor = true;
+            this.exit_button.UseVisualStyleBackColor = false;
             this.exit_button.Click += new System.EventHandler(this.button2_Click);
             // 
             // label1
@@ -137,36 +139,36 @@
             this.pictureBox2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(241)))), ((int)(((byte)(202)))));
             this.pictureBox2.Image = global::Ma_Norn_Duay_Gun_Mai.Properties.Resources.title_holder_bland;
             this.pictureBox2.Location = new System.Drawing.Point(87, 34);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(502, 81);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.pictureBox2.TabIndex = 7;
             this.pictureBox2.TabStop = false;
             // 
+            // pictureBox3
+            // 
+            this.pictureBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(241)))), ((int)(((byte)(202)))));
+            this.pictureBox3.Image = global::Ma_Norn_Duay_Gun_Mai.Properties.Resources.name_holder_bland;
+            this.pictureBox3.Location = new System.Drawing.Point(179, 479);
+            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(364, 71);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
+            this.pictureBox3.TabIndex = 8;
+            this.pictureBox3.TabStop = false;
+            // 
             // pictureBox1
             // 
             this.pictureBox1.Image = global::Ma_Norn_Duay_Gun_Mai.Properties.Resources.room_pre_blur;
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(1178, 755);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
             this.pictureBox1.TabIndex = 6;
             this.pictureBox1.TabStop = false;
             this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(241)))), ((int)(((byte)(202)))));
-            this.pictureBox3.Image = global::Ma_Norn_Duay_Gun_Mai.Properties.Resources.name_holder_bland;
-            this.pictureBox3.Location = new System.Drawing.Point(179, 479);
-            this.pictureBox3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(364, 71);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBox3.TabIndex = 8;
-            this.pictureBox3.TabStop = false;
             // 
             // Title
             // 
@@ -187,8 +189,8 @@
             this.Text = "Ma-Norn-Duay-Gun-Mai";
             this.Load += new System.EventHandler(this.Title_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 

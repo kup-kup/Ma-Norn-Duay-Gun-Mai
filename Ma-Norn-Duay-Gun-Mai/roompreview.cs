@@ -131,6 +131,16 @@ namespace Ma_Norn_Duay_Gun_Mai
                 case 4: pictureBox1.Image = Properties.Resources.Bed4_kid; break;
             }
 
+            //wardrobe
+            switch (GlobalVar.wardrobe_op)
+            {
+                case 1: pictureBox4.Image = Properties.Resources.Ward1_kid; break;
+                case 2: pictureBox4.Image = Properties.Resources.Ward2_mirror; break;
+                case 3: pictureBox4.Image = Properties.Resources.Ward3_plain; break;
+                case 4: pictureBox4.Image = Properties.Resources.Ward4_white; break;
+            }
+
+
             //lamp
             switch (GlobalVar.lamp_op)
             {

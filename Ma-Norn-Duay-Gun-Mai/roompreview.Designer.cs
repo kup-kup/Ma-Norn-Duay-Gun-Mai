@@ -195,7 +195,9 @@
             // 
             // next_button
             // 
-            this.next_button.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.next_button.BackColor = System.Drawing.Color.NavajoWhite;
+            this.next_button.Font = new System.Drawing.Font("Arial Rounded MT Bold", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.next_button.ForeColor = System.Drawing.Color.DarkOrange;
             this.next_button.Location = new System.Drawing.Point(1388, 836);
             this.next_button.Margin = new System.Windows.Forms.Padding(4);
             this.next_button.Name = "next_button";
@@ -203,12 +205,14 @@
             this.next_button.TabIndex = 10;
             this.next_button.Text = "Finalize";
             this.next_button.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.next_button.UseVisualStyleBackColor = true;
+            this.next_button.UseVisualStyleBackColor = false;
             this.next_button.Click += new System.EventHandler(this.next_button_Click);
             // 
             // button1
             // 
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(222)));
+            this.button1.BackColor = System.Drawing.Color.NavajoWhite;
+            this.button1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.Color.DarkOrange;
             this.button1.Location = new System.Drawing.Point(52, 836);
             this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
@@ -216,7 +220,7 @@
             this.button1.TabIndex = 11;
             this.button1.Text = "Back";
             this.button1.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // pictureBox8

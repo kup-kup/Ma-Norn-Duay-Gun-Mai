@@ -110,6 +110,15 @@ namespace Ma_Norn_Duay_Gun_Mai
             // aircon
             label4.Text = GlobalVar.aircon_temp + "C";
 
+            //wardrobe
+            switch (GlobalVar.wardrobe_op)
+            {
+                case 1: pictureBox4.Image = Properties.Resources.Ward1_kid; break;
+                case 2: pictureBox4.Image = Properties.Resources.Ward2_mirror; break;
+                case 3: pictureBox4.Image = Properties.Resources.Ward3_plain; break;
+                case 4: pictureBox4.Image = Properties.Resources.Ward4_white; break;
+            }
+
             //owner
             switch (GlobalVar.owner_op)
             {
@@ -121,6 +130,14 @@ namespace Ma_Norn_Duay_Gun_Mai
                 case 6: pictureBox8.Image = Properties.Resources.Nuey; break;
                 case 7: pictureBox8.Image = Properties.Resources.Chi; break;
             }
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            roompreview roompreview_var = new roompreview();
+            roompreview_var.Show();
+
         }
     }
 }

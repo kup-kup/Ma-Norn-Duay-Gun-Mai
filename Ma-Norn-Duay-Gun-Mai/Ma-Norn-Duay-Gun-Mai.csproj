@@ -377,5 +377,29 @@
   <ItemGroup>
     <None Include="Resources\highlight_ex_mouse.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Udon.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Udon1.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pitt.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mix.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Boss.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pang.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Chi.PNG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nuey.PNG" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

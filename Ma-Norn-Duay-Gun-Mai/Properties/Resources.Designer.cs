@@ -243,6 +243,26 @@ namespace Ma_Norn_Duay_Gun_Mai.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Boss {
+            get {
+                object obj = ResourceManager.GetObject("Boss", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Chi {
+            get {
+                object obj = ResourceManager.GetObject("Chi", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap clock1_pink {
             get {
                 object obj = ResourceManager.GetObject("clock1_pink", resourceCulture);
@@ -463,6 +483,16 @@ namespace Ma_Norn_Duay_Gun_Mai.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Mix {
+            get {
+                object obj = ResourceManager.GetObject("Mix", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap name_holder {
             get {
                 object obj = ResourceManager.GetObject("name_holder", resourceCulture);
@@ -476,6 +506,36 @@ namespace Ma_Norn_Duay_Gun_Mai.Properties {
         internal static System.Drawing.Bitmap name_holder_bland {
             get {
                 object obj = ResourceManager.GetObject("name_holder_bland", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Nuey {
+            get {
+                object obj = ResourceManager.GetObject("Nuey", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Pang {
+            get {
+                object obj = ResourceManager.GetObject("Pang", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Pitt {
+            get {
+                object obj = ResourceManager.GetObject("Pitt", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -536,6 +596,26 @@ namespace Ma_Norn_Duay_Gun_Mai.Properties {
         internal static System.Drawing.Bitmap title_holder_bland {
             get {
                 object obj = ResourceManager.GetObject("title_holder_bland", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Udon {
+            get {
+                object obj = ResourceManager.GetObject("Udon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Udon1 {
+            get {
+                object obj = ResourceManager.GetObject("Udon1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

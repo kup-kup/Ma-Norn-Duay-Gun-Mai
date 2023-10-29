@@ -111,6 +111,7 @@
             this.radioButton1.TabStop = true;
             this.radioButton1.Text = "The Cutest Boy Ever";
             this.radioButton1.UseVisualStyleBackColor = true;
+            this.radioButton1.CheckedChanged += new System.EventHandler(this.radioButton1_CheckedChanged);
             // 
             // radioButton2
             // 
@@ -124,6 +125,7 @@
             this.radioButton2.TabStop = true;
             this.radioButton2.Text = "The Working Man";
             this.radioButton2.UseVisualStyleBackColor = true;
+            this.radioButton2.CheckedChanged += new System.EventHandler(this.radioButton2_CheckedChanged);
             // 
             // radioButton3
             // 
@@ -132,11 +134,12 @@
             this.radioButton3.ForeColor = System.Drawing.Color.Chocolate;
             this.radioButton3.Location = new System.Drawing.Point(175, 318);
             this.radioButton3.Name = "radioButton3";
-            this.radioButton3.Size = new System.Drawing.Size(220, 31);
+            this.radioButton3.Size = new System.Drawing.Size(215, 31);
             this.radioButton3.TabIndex = 18;
             this.radioButton3.TabStop = true;
-            this.radioButton3.Text = "The Friendly Boy";
+            this.radioButton3.Text = "The Rayong Boy";
             this.radioButton3.UseVisualStyleBackColor = true;
+            this.radioButton3.CheckedChanged += new System.EventHandler(this.radioButton3_CheckedChanged);
             // 
             // label1
             // 
@@ -163,6 +166,7 @@
             this.radioButton4.TabStop = true;
             this.radioButton4.Text = "The Hi-So Ping";
             this.radioButton4.UseVisualStyleBackColor = true;
+            this.radioButton4.CheckedChanged += new System.EventHandler(this.radioButton4_CheckedChanged);
             // 
             // label4
             // 
@@ -170,7 +174,7 @@
             this.label4.BackColor = System.Drawing.Color.Transparent;
             this.label4.Font = new System.Drawing.Font("Forte", 22.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.Chocolate;
-            this.label4.Location = new System.Drawing.Point(665, 160);
+            this.label4.Location = new System.Drawing.Point(708, 160);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(79, 41);
@@ -189,6 +193,7 @@
             this.radioButton5.TabStop = true;
             this.radioButton5.Text = "The Lovely Little Girl";
             this.radioButton5.UseVisualStyleBackColor = true;
+            this.radioButton5.CheckedChanged += new System.EventHandler(this.radioButton5_CheckedChanged);
             // 
             // radioButton6
             // 
@@ -202,6 +207,7 @@
             this.radioButton6.TabStop = true;
             this.radioButton6.Text = "The Jolly and Cute Girl";
             this.radioButton6.UseVisualStyleBackColor = true;
+            this.radioButton6.CheckedChanged += new System.EventHandler(this.radioButton6_CheckedChanged);
             // 
             // radioButton7
             // 
@@ -215,6 +221,7 @@
             this.radioButton7.TabStop = true;
             this.radioButton7.Text = "The Charming Girl";
             this.radioButton7.UseVisualStyleBackColor = true;
+            this.radioButton7.CheckedChanged += new System.EventHandler(this.radioButton7_CheckedChanged);
             // 
             // OwnerChoose
             // 
@@ -238,6 +245,7 @@
             this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "OwnerChoose";
             this.Text = "Whoose bedroom is it?!";
+            this.Load += new System.EventHandler(this.OwnerChoose_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

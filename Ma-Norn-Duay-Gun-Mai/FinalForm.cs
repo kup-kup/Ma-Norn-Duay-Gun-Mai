@@ -41,36 +41,6 @@ namespace Ma_Norn_Duay_Gun_Mai
 
         private void FinalForm_Load(object sender, EventArgs e)
         {
-            //Owner's name
-            if(GlobalVar.owner_op == 1)
-            {
-                label3.Text = "UDON'S";
-            }
-            else if(GlobalVar.owner_op == 2)
-            {
-                label3.Text = "MIX'S";
-            }
-            else if (GlobalVar.owner_op == 3)
-            {
-                label3.Text = "BOSS'";
-            }
-            else if (GlobalVar.owner_op == 4)
-            {
-                label3.Text = "PITT'S";
-            }
-            else if (GlobalVar.owner_op == 5)
-            {
-                label3.Text = "PANG'S";
-            }
-            else if (GlobalVar.owner_op == 6)
-            {
-                label3.Text = "NUEY'S";
-            }
-            else if (GlobalVar.owner_op == 7)
-            {
-                label3.Text = "CHI'S";
-            }
-
             // bed
             switch (GlobalVar.bed_op)
             {
@@ -122,13 +92,20 @@ namespace Ma_Norn_Duay_Gun_Mai
             //owner
             switch (GlobalVar.owner_op)
             {
-                case 1: pictureBox8.Image = Properties.Resources.Udon1; break;
-                case 2: pictureBox8.Image = Properties.Resources.Mix; break;
-                case 3: pictureBox8.Image = Properties.Resources.Boss; break;
-                case 4: pictureBox8.Image = Properties.Resources.Pitt; break;
-                case 5: pictureBox8.Image = Properties.Resources.Pang; break;
-                case 6: pictureBox8.Image = Properties.Resources.Nuey; break;
-                case 7: pictureBox8.Image = Properties.Resources.Chi; break;
+                case 1: pictureBox8.Image = Properties.Resources.Udon1;
+                        label3.Text = "UDON's"; break;
+                case 2: pictureBox8.Image = Properties.Resources.Mix;
+                        label3.Text = "MIX's"; break;
+                case 3: pictureBox8.Image = Properties.Resources.Boss;
+                        label3.Text = "BOSS'"; break;
+                case 4: pictureBox8.Image = Properties.Resources.Pitt;
+                        label3.Text = "PITT's"; break;
+                case 5: pictureBox8.Image = Properties.Resources.Pang;
+                        label3.Text = "PANG's"; break;
+                case 6: pictureBox8.Image = Properties.Resources.Nuey;
+                        label3.Text = "NUEY's"; break;
+                case 7: pictureBox8.Image = Properties.Resources.Chi;
+                        label3.Text = "CHI's"; break;
             }
         }
 

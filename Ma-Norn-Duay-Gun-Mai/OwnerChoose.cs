@@ -18,8 +18,6 @@ namespace Ma_Norn_Duay_Gun_Mai
             InitializeComponent();
         }
 
-
-
         private void button1_Click(object sender, EventArgs e)
         {
             this.Hide();
@@ -50,8 +48,8 @@ namespace Ma_Norn_Duay_Gun_Mai
             {
                 case 1: radioButton1.Select(); break;
                 case 2: radioButton2.Select(); break;
-                case 3: radioButton4.Select(); break;
-                case 4: radioButton3.Select(); break;
+                case 3: radioButton3.Select(); break;
+                case 4: radioButton4.Select(); break;
                 case 5: radioButton5.Select(); break;
                 case 6: radioButton6.Select(); break;
                 case 7: radioButton7.Select(); break;

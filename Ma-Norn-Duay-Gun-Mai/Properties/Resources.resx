@@ -214,6 +214,9 @@
   <data name="361213576_2898278143635793_7378312839190816006_n" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\361213576_2898278143635793_7378312839190816006_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="image_processing20200424-23052-lwkjqt" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\image_processing20200424-23052-lwkjqt.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="window4_red_h" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\window4_red_h.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -367,7 +370,7 @@
   <data name="Ward3_plain_h" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Ward3_plain_h.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="image_processing20200424-23052-lwkjqt" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\image_processing20200424-23052-lwkjqt.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="S__6938839" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\S__6938839.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

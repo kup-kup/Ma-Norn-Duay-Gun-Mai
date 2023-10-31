@@ -633,6 +633,16 @@ namespace Ma_Norn_Duay_Gun_Mai.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap S__6938839 {
+            get {
+                object obj = ResourceManager.GetObject("S__6938839", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap title_holder {
             get {
                 object obj = ResourceManager.GetObject("title_holder", resourceCulture);
